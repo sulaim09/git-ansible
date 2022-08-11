@@ -1,0 +1,5 @@
+# Example git checkout from Ansible Playbooks
+- git:
+    repo: 'https://foosball.example.org/path/to/repo.git'
+    dest: /srv/checkout
+    version: release-0.22
